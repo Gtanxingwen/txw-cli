@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.0",
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.0",
+    "prettier": "^2.4.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "bracketSpacing": false
+  },
+  "lint-staged": {
+    "*.{js,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
