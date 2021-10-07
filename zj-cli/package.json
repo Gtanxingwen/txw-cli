@@ -1,0 +1,13 @@
+{
+  "name": "zj-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "minimist": "^1.2.5",
+    "webpack": "^5.53.0"
+  },
+  "bin": {
+    "zj-cli-service": "bin/index.js"
+  }
+}

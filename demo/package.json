@@ -1,0 +1,10 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "zj-cli-service --mode development",
+    "clean": "zj-cli-service clean --mode development"
+  }
+}
